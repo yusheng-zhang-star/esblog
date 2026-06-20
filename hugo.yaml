@@ -1,0 +1,115 @@
+baseURL: "https://esblog.comprimefotos.com/"
+title: "ComprimeFotos Blog"
+theme: "stack"
+
+defaultContentLanguage: "es"
+locales:
+  es:
+    languageName: "Español"
+    weight: 1
+
+# 内容目录
+contentDir: "content"
+
+# 构建配置
+buildFuture: false
+buildDrafts: false
+buildExpired: false
+
+# 分页
+paginate: 10
+
+# 主内容区
+mainSections: ["post"]
+
+# 输出格式
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS"]
+
+# 标记配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# 菜单
+menu:
+  main:
+    - identifier: "inicio"
+      name: "Inicio"
+      url: "/"
+      weight: 10
+    - identifier: "archivo"
+      name: "Archivo"
+      url: "/archives"
+      weight: 20
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags"
+      weight: 30
+    - identifier: "buscar"
+      name: "Buscar"
+      url: "/search"
+      weight: 40
+
+# Params（Stack 主题参数）
+params:
+  # 站点描述
+  description: "Guías de compresión de imágenes y optimización para negocios locales en España."
+  author: "ComprimeFotos"
+  keywords: ["comprimir fotos", "reducir tamaño imagen", "optimización imágenes", "España"]
+
+  # 主内容区
+  mainSections: ["post"]
+
+  # 文章设置
+  article:
+    readingTime: true
+    toc: true
+    headingAnchor: true
+    math: false
+    showTags: true
+    license:
+      enabled: false
+
+  # 侧边栏
+  sidebar:
+    compact: false
+    avatar: ""
+    subtitle: "Guías de compresión de imágenes"
+
+  # 页脚
+  footer:
+    since: 2026
+    customText: "ComprimeFotos Blog"
+
+  # 日期格式
+  dateFormat:
+    published: ":date_full"
+    lastUpdated: ":date_full"
+
+  # 配色
+  colorScheme:
+    toggle: true
+    default: "auto"
+
+  # OpenGraph / Twitter
+  opengraph:
+    twitter:
+      site: "@comprimefotos"
+      card: "summary_large_image"
+
+  # Widgets（首页）
+  widgets:
+    homepage:
+      - type: "search"
+      - type: "recent"
+      - type: "categories"
+      - type: "tags"
+
+  # RSS
+  rssFullContent: true
+
+  # 日期排序
+  SortBy: "default"
