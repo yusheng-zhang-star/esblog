@@ -1,0 +1,44 @@
+# Cloudflare Pages 缓存规则 — esblog.comprimefotos.com
+# 禁止 /* 兜底规则（见 cf-anti-pitfall Pitfall 4）
+
+# CSS/JS — 长缓存（带 hash 指纹）
+/scss/*
+  Cache-Control: max-age=31536000, immutable
+
+/ts/*
+  Cache-Control: max-age=31536000, immutable
+
+# 图片 — 长缓存
+/*.png
+/*.jpg
+/*.jpeg
+/*.gif
+/*.webp
+/*.svg
+/*.avif
+/*.webp
+  Cache-Control: max-age=31536000, immutable
+
+# 字体
+/*.woff
+/*.woff2
+/*.ttf
+  Cache-Control: max-age=31536000, immutable
+
+# sitemap
+/sitemap.xml
+  Cache-Control: max-age=1800
+
+# HTML 页面 — 不缓存 origin，CDN 缓存 1 小时
+/*.html
+  Cache-Control: max-age=0, must-revalidate
+  CDN-Cache-Control: max-age=3600
+
+/
+  Cache-Control: max-age=0, must-revalidate
+  CDN-Cache-Control: max-age=3600
+
+# RSS/JSON
+/index.xml
+/index.json
+  Cache-Control: max-age=1800
