@@ -1,6 +1,6 @@
 +++
 date = '2026-06-20T08:59:39+08:00'
-draft = false
+draft = true
 title = 'Hola Mundo'
 description = 'Bienvenido al blog de ComprimeFotos. Guías de compresión de imágenes para España.'
 +++
