@@ -67,7 +67,7 @@ params:
   article:
     readingTime: true
     toc: true
-    headingAnchor: true
+    headingAnchor: false
     math: false
     showTags: true
     license:
