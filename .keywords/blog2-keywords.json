@@ -1,0 +1,40 @@
+{
+  "site": "esblog.comprimefotos.com",
+  "type": "C端-personal",
+  "description": "博客2关键词库——C端个人用户方向，与博客1完全隔离，禁止混用",
+  "last_updated": "2026-06-20",
+  "update_cycle": {
+    "core_keywords": "每月复盘一次",
+    "long_tail_keywords": "每7-15天梳理一次"
+  },
+  "core_keywords": {
+    "active": [
+      "fotos instagram",
+      "viaje personal",
+      "selfie",
+      "fotos redes sociales",
+      "editar fotos móvil",
+      "consejos fotos",
+      "mejores fotos"
+    ],
+    "deprecated": []
+  },
+  "long_tail_keywords": {
+    "active": [
+      {"keyword": "cómo editar fotos de viaje para Instagram sin perder calidad", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "tamaño ideal fotos Instagram Stories 2026", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "mejores apps gratis para editar selfies", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "cómo hacer fotos bonitas con el móvil en vacaciones", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "trucos fotos viaje solo con trípode", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "editar fotos comida para Instagram", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "fotos de viaje Barcelona Instagram consejos", "article": "", "traffic": "", "status": "new"},
+      {"keyword": "cómo quitar personas del fondo fotos viaje", "article": "", "traffic": "", "status": "new"}
+    ],
+    "deprecated": []
+  },
+  "blacklist_terms": [
+    "lote", "en lote", "negocio", "tienda online", "web", "página web",
+    "galería comercial", "SEO imágenes", "conversión", "optimización web"
+  ],
+  "isolation_rule": "本关键词库仅用于 esblog.comprimefotos.com，绝不用于博客1。所有关键词为C端个人用户方向。"
+}
