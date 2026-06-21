@@ -5,12 +5,7 @@ title = "Cómo editar fotos de viaje para Instagram sin perder calidad | Guía 2
 description = "Trucos para editar tus fotos de viaje en el móvil y subirlas a Instagram sin que pierdan calidad. Tamaños, formatos y consejos prácticos."
 tags = ["instagram fotos", "viaje personal", "editar fotos móvil", "fotos redes"]
 categories = ["Fotos de viaje", "Guías social"]
-
-[cover]
-  image = "cover.jpg"
-  alt = "Editar fotos de viaje en el móvil para Instagram"
-  caption = "Editar tus fotos antes de subirlas a Instagram marca la diferencia"
-  relative = true
+image = "cover.jpg"
 +++
 
 ## Introducción
