@@ -5,7 +5,7 @@ title = "Cómo editar fotos de viaje para Instagram sin perder calidad | Guía 2
 description = "Trucos para editar tus fotos de viaje en el móvil y subirlas a Instagram sin que pierdan calidad. Tamaños, formatos y consejos prácticos."
 tags = ["instagram fotos", "viaje personal", "editar fotos móvil", "fotos redes"]
 categories = ["Fotos de viaje", "Guías social"]
-image = "cover.jpg"
+image = "cover.webp"
 +++
 
 ## Introducción
@@ -18,7 +18,7 @@ El truco está en editar tus fotos antes de subirlas y elegir bien el tamaño y 
 
 Instagram aplica su propia compresión a todo lo que subes. Si tu foto pesa 8 MB directamente de la cámara, Instagram la aplasta hasta unos 150 KB aproximadamente, y en ese proceso se pierde detalle, nitidez y color.
 
-![Comparación: foto original con calidad vs foto comprimida y borrosa por Instagram](compresion-instagram.jpg)
+![Foto de viaje de playa al atardecer con calidad para Instagram - fotos redes sociales](playa-sunset-calidad.webp)
 
 El problema no es solo el tamaño. Si subes una foto con una resolución rara, digamos 3500 píxeles de ancho, Instagram la redimensiona a 1080 píxeles y el redimensionado introduce artefactos. La foto se ve suave, sin textura, como si tuvieras un filtro de niebla que no pediste.
 
@@ -28,7 +28,7 @@ Lo que yo hago: antes de subir nada, paso mis fotos de viaje por <a href="https:
 
 Editar no significa poner filtros de revista. Significa preparar la foto para que Instagram la respete. Esto es lo que hago con cada foto de un viaje personal:
 
-![Edición de fotos de viaje en el móvil antes de subir a Instagram](edicion-movil.jpg)
+![Edición de fotos de viaje en el móvil antes de subir a Instagram - editar fotos móvil](edicion-movil.webp)
 
 **1. Ajusta el brillo y el contraste.** Las fotos de viaje suelen tener cielos quemados o sombras oscuras. Sube el brillo un 10%, el contraste un 15%. No pases. Si subes demasiado, Instagram lo amplifica y la foto se ve pastelona.
 
